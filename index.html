@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    
+    <title>NHR</title>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <input type="checkbox" id="check">
+        <label for="check">
+            <emph class="fas fa-bars"></emph>
+        </label>
+        <h2 onclick="myF()"><a href="#" >NHR</a></h2>
+        <ul id="pls">
+            <li><a href="#home" onclick="myF()">Home</span></a></li>
+            <li><a href="#about" onclick="myF()">About</a></li>
+            <li><a href="#featured" onclick="myF()">Featured</a></li>
+            <li><a href="#contact" onclick="myF()">Contact</a></li>
+            <button onclick="myF()">View CV</button>
+        </ul>
+    </div>
+    <section class="container">
+        <div class="intro-wrapper" id="home">
+            <h1>Hello! I'm Niel Ramos...</h1>
+            <h2>Aspiring Software Developer</h2>
+            <div class="social-icons">
+                <ul>
+                    <a href="https://github.com/NielRamos-CS"><li><i class="fab fa-github"></i></li></a>
+                    <a href="https://www.linkedin.com/in/niel-haldane-ramos-28ba85337/"><li><i class="fab fa-linkedin-in"></i></li></li></a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="about-section" id="about">
+        <div class="main-wrapper">
+            <div class="ab-wrapper">
+                <div class="ab-pic"><img src="image/me.png" alt=""></div>
+                <div class="ab-desc">
+                    <h2>About me</h2>
+                    <p>I'm Niel Haldane G. Ramos, a fourth-year Computer Science major at Holy Angel University in the Philippines. My passion for technology and problem-solving has driven me to pursue a career in software development.  Throughout my studies, I have gained a solid foundation in programming languages, algorithms, and software engineering principles. I thrive on the challenges of coding and enjoy creating efficient, user-friendly applications that can make a positive impact on people's lives.<br><br>
+                        As I approach graduation, I am eager to apply my skills in real-world projects and collaborate with others in the tech industry. My goal is to become a proficient software developer who can contribute to innovative solutions that address everyday challenges. I am excited about the future of technology and the endless possibilities it offers for growth and creativity in my career.</p>
+                </div>
+            </div>
+            <div class="skill-container">
+                <h1>Technical Skills</h1>
+                <img src="image/programmer.png" alt="">
+                <div class="skill-sec">
+                    <div class="sk-wrapper">
+                        <div class="card">
+                            <ul>
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </ul>
+                            <div class="number">
+                                <p>42<span>%</span></p>
+                                </div>
+                            </div>
+                            <div class="skill-label"><h3>Java</h3>
+                        </div>
+                    </div>
+                    <div class="sk-wrapper">
+                        <div class="card">
+                            <ul>
+                                <svg id="py">
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </ul>
+                            <div class="number">
+                                <p>62<span>%</span></p>
+                                </div>
+                            </div>
+                            <div class="skill-label"><h3>Python</h3>
+                        </div>
+                    </div>
+                    <div class="sk-wrapper">
+                        <div class="card">
+                            <ul>
+                                <svg id="html">
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </ul>
+                            <div class="number">
+                                <p>34<span>%</span></p>
+                                </div>
+                            </div>
+                            <div class="skill-label"><h3>HTML/CSS</h3>
+                        </div>
+                    </div>
+                    <div class="sk-wrapper">
+                        <div class="card">
+                            <ul>
+                                <svg id="js">
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </ul>
+                            <div class="number">
+                                <p>57<span>%</span></p>
+                                </div>
+                            </div>
+                            <div class="skill-label"><h3>JavaScript</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project-sec" id="featured">
+        <div class="proj-main-wrapper">
+            <h1>Featured Projects</h1>
+            <div class="card-container">
+                <div class="card-wrapper">
+                    <div class="card-pic">
+                        <img src="image/proj1.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="c-text">
+                        <h4> <span>HTML/Javascript</span></h4>
+                        <div>
+                        <h3>Survey</h3>
+                        <p>This HTML code creates an interactive quiz called "Discover Your Computer Science Path," where users answer multiple-choice questions about their preferences, workspace, and approach to challenges. Based on their answers, the quiz categorizes them into one of four types of computer scientists: Data Scientist, Community-Oriented Developer, Creative Technologist, or Entrepreneurial Innovator. The design is simple and user-friendly, with a clean blue background, a centered form, and buttons for submitting answers or restarting the quiz. JavaScript is used to calculate the results and display the corresponding category on the page.</p>
+                        </div>
+                        <div class="c-btn">
+                            <h5><a href="https://github.com/NielRamos-CS/Survey" target="_blank">View</a></h5>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card-pic">
+                        <img src="image/proj2.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="c-text">
+                        <h4> <span>JavaScript/CSS</span></h4>
+                        <div>
+                        <h3>Boolean Bot Battle</h3>
+                        <p>This HTML code creates a simple web-based game called "Boole Bots Game." It features an interactive arena where users can add virtual bots, battle them, and view the results on a leaderboard. The game allows users to configure bots and initiate a battle using buttons, with the arena displayed in a 300x300px box where the bots appear. There's also a leaderboard section to show the rankings. CSS is used to style the arena, bots, and control panels, and JavaScript manages the bot interactions and battle logic. The game includes buttons for adding bots, starting battles, and stopping them.</p>
+                        </div>
+                        <div class="c-btn">
+                            <h5><a href="https://github.com/NielRamos-CS/Boolean-bot-batte" target="_blank">View</a></h5>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card-pic">
+                        <img src="image/proj3.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="c-text">
+                        <h4> <span>Python</span></h4>
+                        <div>
+                        <h3>Word Finder</h3>
+                        <p>This program is a simple game where the computer tries to guess a word you give it, one character at a time. It randomly picks letters, numbers, punctuation, or spaces to guess each letter in the word until it gets it right. As it guesses, the word is gradually filled in with the correct letters, and it simulates a typing effect to show the progress. After the computer successfully guesses the word, it tells you how many attempts it took to get the right word.</p>
+                        </div>
+                        <div class="c-btn">
+                            <h5><a href="https://github.com/NielRamos-CS/Word-Finder" target="_blank">View</a></h5>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="serv-main-wrapper">
+            <h1>Skills</h1>
+            <div class="serv-container">
+                <div class="serv-wrapper">
+                    <ul>
+                        <i class="fas fa-tools"></i>
+                        <h2>Application Maintenance</h2>
+                    </ul>
+                    <p>As an aspiring software developer, I have immersed myself in application development, where I design and build robust software solutions tailored to specific user requirements. My experience with various programming languages and development frameworks enables me to create applications that are not only efficient but also scalable. I am committed to following best practices in coding and software engineering to ensure the applications I develop are reliable and maintainable over time.</p>
+                </div>
+                <div class="serv-wrapper">
+                    <ul>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Development</h2>
+                    </ul>
+                    <p>I have developed a strong foundation in web development, where I enjoy building responsive and dynamic websites that cater to diverse user needs. Proficient in HTML, CSS, and JavaScript, I create engaging web applications that prioritize functionality and aesthetics. My passion for web development drives me to stay current with emerging technologies and frameworks, allowing me to deliver modern solutions that enhance user interaction.</p>
+                </div>
+                <div class="serv-wrapper">
+                    <ul>
+                        <i class="fas fa-mobile"></i>
+                        <h2>App Development</h2>
+                    </ul>
+                    <p>In my studies, I have gained valuable experience in application management, where I focus on overseeing the lifecycle of software applications. This includes monitoring performance, implementing updates, and ensuring security protocols are followed. My attention to detail and organizational skills enable me to manage applications effectively, ensuring they run smoothly and efficiently while providing users with a seamless experience.</p>
+                </div>
+                <div class="serv-wrapper">
+                    <ul>
+                        <i class="fas fa-pen-nib"></i>
+                        <h2>UI/UX Design</h2>
+                    </ul>
+                    <p>As a fourth-year Computer Science student, I have honed my skills in UI/UX design, focusing on creating intuitive and engaging user experiences. I understand the importance of user-centered design principles and strive to develop interfaces that are not only visually appealing but also functional. By conducting user research and usability testing, I continuously refine my designs to ensure they meet the needs and preferences of users, making technology more accessible and enjoyable.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Certification Section -->
+ 
+<div class="certification-sec">  
+    <h2>Certifications Skills</h2>
+    <div class="cert-card-container">
+        <div class="cert-card-wrapper">
+            <div class="cert-card-pic">
+                <img src="image/Communication Certificate.png" alt="">
+            </div>
+            <div class="cert-card-content">
+                <div class="cert-c-text">
+                <h4> <span>Certification on Communication</span></h4>
+                <div>
+                <h3>Communication Excellence for Project Success: 6 PDUs PMI PMP</h3>
+                </div>
+                <div class="cert-c-btn">
+                    <h5><a href="https://www.udemy.com/certificate/UC-9a2a5b73-4804-4319-8aac-7d56a881b285/" target="_blank">View</a></h5>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="cert-card-wrapper">
+            <div class="cert-card-pic">
+                <img src="image/Critical Thinking Certificate.png" alt="">
+            </div>
+            <div class="cert-card-content">
+                <div class="cert-c-text">
+                <h4> <span>Certification on Critical Thinking</span></h4>
+                <div>
+                <h3>Master your Decision Making and Critical Thinking Skills !</h3>
+                <p>.</p>
+                </div>
+                <div class="cert-c-btn">
+                    <h5><a href="https://www.udemy.com/certificate/UC-18042b06-5e38-4883-a1bb-98fb2851ed99/" target="_blank">View</a></h5>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="cert-card-wrapper">
+            <div class="cert-card-pic">
+                <img src="image/Machine Learning.png" alt="">
+            </div>
+            <div class="cert-card-content">
+                <div class="cert-c-text">
+                <h4> <span>Certification on Machine Learning</span></h4>
+                <div>
+                <h3>Complete A.I. & Machine Learning, Data Science Bootcamp</h3>
+                </div>
+                <div class="cert-c-btn">
+                    <h5><a href="https://www.udemy.com/certificate/UC-aa2c9fcd-1f78-4f29-95de-2c7c8fbe8a1a/" target="_blank">View</a></h5>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="cert-card-wrapper">
+            <div class="cert-card-pic">
+                <img src="image/Python Data Structures & Algorithms.png" alt="">
+            </div>
+            <div class="cert-card-content">
+                <div class="cert-c-text">
+                <h4> <span>Certification on Data Structures & Algorithms</span></h4>
+                <div>
+                <h3>Python Data Structures & Algorithms + LEETCODE Exercises</h3>
+                </div>
+                <div class="cert-c-btn">
+                    <h5><a href="https://www.udemy.com/certificate/UC-704f082d-3483-475d-9608-17690320daf2/" target="_blank">View</a></h5>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="ach-main-wrapper">
+            <div class="ach-container">
+                <div class="ach-wrapper">
+                    <div class="head-content">
+                        <ul>
+                            <h1>What I want to do</h1>
+                        </ul>
+                        <div class="h-wrapper">
+                            <div class="h-text">
+                                <img src="image/goal.png" alt="man-stepping">
+                                <p>As I approach the culmination of my studies in Computer Science, my primary goal is to leverage my skills and knowledge in software development to create innovative solutions that address real-world challenges. I aspire to work in a collaborative environment where I can contribute to impactful projects, particularly in areas such as application development and user experience design. My ambition is to continuously learn and adapt to new technologies, ultimately becoming a proficient software developer who not only excels in technical skills but also prioritizes user needs and fosters positive interactions through technology. I envision a career where I can make a meaningful difference, helping to shape the future of software applications that enhance everyday life.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-sec" id="contact">
+        <div class="foot-container">
+            <div class="form-wrapper">
+                <form action="https://formspree.io/f/mwplwbjk" method="POST">
+                    <h1>Send me a message</h1>
+                    <ul>
+                        <label for="sender">Name:</label>
+                        <input type="text" name="name" id="sender" placeholder="Name" required>
+                    </ul>
+                    <ul>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </ul>
+                    <ul>
+                        <label for="subject">Subject:</label>
+                        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    </ul>
+                    <ul>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                    </ul>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <div class="foot-wrapper">
+                <div class="f-pic">
+                    <img src="image/contact.png" alt="">
+                </div>
+                <div class="f-contact">
+                    <h1>Contact me</h1>
+                    <ul>
+                        <i class="fas fa-envelope"></i>
+                        <h3>haldaneniel@gmail.com</h3>
+                    </ul>
+                    <ul>
+                        <i class="fas fa-phone-square"></i>
+                        <h3>+(63)916 272 6540</h3>
+                    </ul>
+                    <ul class="social"">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </ul>
+                </div>
+                <div class="final">
+                    <h1>NHR</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function myF() {
+        if(document.getElementById("check").checked = true){
+            document.getElementById("check").checked = false;
+        }
+    }
+        </script>
+    <script src="https://kit.fontawesome.com/a8af834b84.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card-wrapper"), {
+            max: 20,
+            speed: 1000,
+        });
+    </script>
+</body>
+</html>
